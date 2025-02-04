@@ -1,41 +1,42 @@
-***Investigation of Smartphone Use and Wellbeing in Adolescents***
+# Investigation of Smartphone Use and Wellbeing in Adolescents
 
 This investigation explores the relationship between smartphone usage and wellbeing in adolescents, expanding on previous research into the effects of technology on mental health. While many studies focus on general technology use, this study distinguishes between passive and interactive screen time, specifically focusing on smartphone usage as a unique form of interactive technology.
 
-**Key Insights**
+## Key Insights
 
 The study analyzes two datasets:
 
 - Adolescent technology usage, including the proportion of time spent on smartphones relative to total technology use.
 - Wellbeing scores across multiple metrics, self-reported by adolescents.
 
-**Hypotheses**
+## Hypotheses
 
 - Null Hypothesis (H₀): The mean self-reported wellbeing score of low smartphone users is the same as that of high smartphone users.
 - Alternative Hypothesis (H₁): The mean self-reported wellbeing score of low smartphone users is higher than that of high smartphone users
 
-**Methodology**
+## Methodology
 
 The investigation employs both t-tests and Mann-Whitney U-tests to examine the correlation between smartphone use and wellbeing:
 
-*T-Testing & U-Testing:*
+### T-Testing & U-Testing
 - T-tests & U-tests were used to assess the relationship between smartphone use (as a proportion of total screen time) and wellbeing.
-*Multiple Regression Models:*
+
+### Multiple Regression Models
 - Multiple regression models were created to explore the correlation between various explanatory variables (e.g., screen time, demographics) and wellbeing scores.
 
-**Results**
+## Results
 
-*Overall Wellbeing (Average Scores)*
+### Overall Wellbeing (Average Scores)
 
-T-Test Result:
+**T-Test Result:**
 P-value = 0.017, sufficient to reject the null hypothesis.
 Conclusion: Low smartphone users report better overall wellbeing than high smartphone users.
 
-U-Test Result:
+**U-Test Result:**
 P-value = 0.025, again sufficient to reject the null hypothesis.
 Conclusion: Low smartphone users have better overall wellbeing than high smartphone users.
 
-*Wellbeing Across Individual Metrics*
+### Wellbeing Across Individual Metrics
 
 A Mann-Whitney U-test was conducted for each individual wellbeing metric. The results indicate that:
 
@@ -47,11 +48,11 @@ However, there were two metrics where no significant difference was found, and i
 
 These results suggest that, in these two areas, high smartphone users may report better social connectivity than low smartphone users.
 
-*Regression Models*
+### Regression Models
 
 The regression models built to explore the relationship between smartphone use and wellbeing were based on general screen time, including all forms of technology use, not just smartphone usage. Although the models revealed a strong correlation coefficient, they failed to improve predictive accuracy. The inclusion of broader screentime metrics did not yield better results, and the models displayed low R² values, indicating weak to moderate explanatory power.
 
-**Limitations**
+## Limitations
 
 Several limitations should be noted for this investigation:
 
@@ -62,7 +63,7 @@ Several limitations should be noted for this investigation:
 - General Screen Time: The regression models used total screen time (including all forms of technology use) rather than focusing exclusively on smartphone use, which may have diluted the impact of smartphones on wellbeing.
 - Model Failure: Despite a strong correlation in the regression analysis, the models did not improve in terms of prediction accuracy, with R² values remaining low. This suggests that factors beyond screen time may significantly influence adolescent wellbeing and that further refinement is necessary for the models to better capture the complexities of this relationship.
 
-**Conclusion**
+## Conclusion
 
 This study provides evidence that low smartphone users generally report better overall wellbeing than high smartphone users. However, interesting exceptions exist in the social aspects of wellbeing, where high smartphone users may feel more connected to others.
 
